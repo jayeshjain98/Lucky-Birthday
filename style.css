@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: #9F1239;
+  color: #FECDD3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#check-number,
+label,
+input {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 320px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+#check-number,
+#output-box {
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+}
+
+#output-box {
+  width: 100%;
+  background-color: white;
+  border-color: #FECDD3;
+  border-radius: 5px;
+  border-width: medium;
+  font-size: large;
+}
+
+#check-number {
+  border-radius: 5px;
+  background: transparent;
+  color: #FECDD3;
+  border-color: #FECDD3;
+  padding: 0.3rem;
+}
+
+#check-number:hover {
+  background: #FECDD3;
+  border-color: #FECDD3;
+  color: #1F2937;
+}
+
+#text-birthday{
+  color: #1F2937;
+}
