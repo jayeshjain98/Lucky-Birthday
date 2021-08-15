@@ -13,9 +13,9 @@ function checkLuckyNumber() {
     const sum = getSumOfDate(date);
     //Check Lucky Number:
     if(sum%numberToCheck===0) {
-      outputBox.value=`${numberToCheck} is a lucky number 🥳`;
+      outputBox.value=`${numberToCheck} is a lucky number 🎊`;
     }else {
-      outputBox.value=`${numberToCheck} is not a lucky number 🤒`;
+      outputBox.value=`${numberToCheck} is not a lucky number 😞`;
     }
   }
   // Exception.
