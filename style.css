@@ -64,3 +64,8 @@ input {
 #text-birthday{
   color: #1F2937;
 }
+
+.hint-box {
+  margin-top: 1rem;
+  font-size: small;
+}
