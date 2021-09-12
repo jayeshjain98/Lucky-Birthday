@@ -3,6 +3,8 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check-number");
 const outputBox = document.querySelector("#output-box");
 const hint = document.querySelector(".hint-box");
+const privacyIcon = document.querySelector(".privacy-icon");
+let isDisplayed = false;
 
 function checkLuckyNumber() {
   //Initialise values
@@ -36,4 +38,17 @@ function getSumOfDate(date) {
   return sum;
 }
 
-checkButton.addEventListener("click", checkLuckyNumber)
+function displayMessage() {
+  if (isDisplayed){
+    privacyIcon.innerText = "";
+    isDisplayed = false;
+  }
+  else {
+    privacyIcon.innerText = "We do not store any type of customer data.";
+    isDisplayed = true;
+  }
+}
+
+privacyIcon.addEventListener("click", displayMessage);
+
+checkButton.addEventListener("click", checkLuckyNumber);
