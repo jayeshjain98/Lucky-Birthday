@@ -4,4 +4,4 @@ A fun app which takes your birth date as input with a lucky and tell you whether
 
 
 # Check out the App
-Launch the app to find out [Lucky Birthday](https://github.com/jayeshjain98/Lucky-Birthday)
+Launch the app to find out [Lucky Birthday](https://one-lucky-birthday.netlify.app/)
